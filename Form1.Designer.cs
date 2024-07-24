@@ -55,6 +55,7 @@
             label1.TabIndex = 0;
             label1.Text = "Data Entry for new Client";
             label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -71,7 +72,6 @@
             txtFirstName.Name = "txtFirstName";
             txtFirstName.Size = new Size(150, 31);
             txtFirstName.TabIndex = 2;
-//            txtFirstName.TextChanged += txtFirstName_TextChanged;
             // 
             // txtLastName
             // 
